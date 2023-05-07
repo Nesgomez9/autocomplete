@@ -1,0 +1,40 @@
+.container {
+  background-color: white;
+  position: relative;
+  width: 40vw;
+  border-radius: 4px;
+}
+.searchBar {
+  border: none;
+  width: 95%;
+  font-size: large;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+.searchResultsContainer {
+  position: absolute;
+  top: 38px;
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  background-color: white;
+  overflow: scroll;
+  max-height: 30vh;
+}
+.searchBarContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.deleteIcon {
+  cursor: pointer;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: #adb4cc;
+  justify-content: center;
+}
